@@ -48,6 +48,8 @@ public class App {
 		Map<Integer, Integer> outPut = counter.count(collectedNumbers);
 
 		System.out.println(outPut);
+		
+		executor.shutdown();
 	}
 
 }
